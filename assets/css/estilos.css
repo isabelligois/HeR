@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root {
+    --fonte-principal: "Open Sans"
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:  var(--fonte-principal), Georgia, sans-serif;
+}
+
+.container  {
+    width: 1140px;
+    margin: auto;
+    max-width: 100%;
+}
+
+#nav {
+    background-color: lightgrey;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+#nav ul li {
+    list-style: none;
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#nav ul#menu li {
+    float: left;
+    border-radius: 8px;
+}
+#nav ul.right li {
+    float: right;
+}
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#nav ul li a {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#nav ul#menu li:hover {
+    background-color: rgba(0, 0, 0, 0.568);
+}
+#main section h1 {
+    font-size: 40px;
+}
+.gold {
+    background-color: rgb(0, 0, 0);
+}
+.banner {
+    position: relative;
+}
+.banner::before {
+    content: "";
+    background-image: url();
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: top;
+    position: absolute;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.btn {
+    font-family: var(--fonte-principal);
+    padding: 15px;
+    margin: 30px;
+    border-radius: 45px;
+    background-color: rgb(2, 251, 251);
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn :hover {background-color: black;}
+section{padding-bottom: 20px;}
+blockquote, p, hr {margin-bottom: 20px;}
+section h1 {
+    font-size: 40px;
+    margin-bottom: 280px;
+}
+
+[class*="col-"]{
+    float: left;    padding-right: 5px;
+}
+.col-1 {width: 8.33%}
+.col-2 {width: 16.66%}
+.col-3 {width: 25%}
+.col-4 {width: 33.32%}
+.col-5 {width: 41.65%}
+.col-6 {width: 49.98%} 
+.col-7 {width: 58.31%}
+.col-8 {width: 66.64%} 
+.col-9 {width: 74.97%} 
+.col-10 {width: 83.33%} 
+.col-11 {width: 91.63%} 
+.col-12 {width: 100%} 
+
+body {
+    font-family: var(--fonte-principal), cursive;
+}
+#he img{
+    height: 1000px;
+}
+#her {
+    background-color: white;
+}
+#her h6 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border-radius: 0 0 8px 8px;
+    font-weight: normal;
+    padding: 5px;
+}
+ img.img_ajuste{
+    object-fit: cover;
+    border-radius: 10px;
+ }
